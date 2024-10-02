@@ -1,8 +1,8 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff; /* White background for the entire page */
-    color: #000000; /* Black text for all content */
+    font-family: 'Open Sans', sans-serif; /* Updated font for professional appeal */
+    background-color: #f4f4f4; /* Light grey background for a modern feel */
+    color: #333333; /* Dark grey text for better readability */
     margin: 0;
     padding: 0;
 }
@@ -12,9 +12,9 @@ body {
     margin: 40px auto;
     padding: 40px;
     max-width: 1000px;
-    border: 1px solid #e0e0e0; /* Light grey border for subtle separation */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the box */
-    border-radius: 8px; /* Rounded corners  ok*/
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 header {
@@ -34,32 +34,37 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     letter-spacing: 1px;
-    color: #000000; /* Black color for the name */
+    color: #000000;
 }
 
 header p {
     margin: 10px 0;
-    font-size: 1.2em;
-    color: #000000; /* Black color for the contact details */
+    font-size: 1.1em;
+    color: #000000;
 }
 
 .header-container a {
-    color: #000000; /* Black links for consistency */
+    color: #007bff; /* Blue color for links */
     text-decoration: none;
+}
+
+.header-container a:hover {
+    text-decoration: underline; /* Underline effect on hover */
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+}
+
+.column-left,
+.column-right {
+    flex: 1;
 }
 
 .column-left {
-    flex: 1;
     margin-right: 20px;
-}
-
-.column-right {
-    flex: 2;
 }
 
 .section {
@@ -67,16 +72,16 @@ header p {
 }
 
 h2 {
-    border-bottom: 2px solid #000000; /* Blue line under the section title */
+    border-bottom: 2px solid #000000;
     padding-bottom: 10px;
-    color: #000000; /* Black color for section headers */
-    font-size: 1.5em;
+    color: #000000;
+    font-size: 1.6em;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-top: 10px;
-    color: #000000; /* Black color for subsection headers */
+    color: #333333;
 }
 
 ul {
@@ -85,31 +90,51 @@ ul {
 }
 
 ul li {
-    margin: 5px 0;
-    color: #000000; /* Black color for list items */
+    margin: 8px 0;
+    color: #555555;
+    font-size: 1.1em;
 }
 
-table.awards {
-    width: 100%;
-    border-collapse: collapse;
+ul li strong {
+    color: #000000;
 }
 
-table.awards td {
-    padding: 8px;
-    border: 1px solid #ccc;
-    color: #000000; /* Black text in the awards table */
+ul li a {
+    color: #007bff;
+    text-decoration: none;
 }
 
-table.awards tr:nth-child(even) {
-    background-color: #f9f9f9; /* Light grey background for even rows */
+ul li a:hover {
+    text-decoration: underline;
 }
 
+.experience-entry {
+    margin-bottom: 20px;
+}
+
+/* Languages Section */
+ul li .dots {
+    font-size: 2.4em; /* Same size as the language text */
+    color: #000000;
+    margin-left: 11px;
+   
+}
+
+/* Footer */
 footer {
-    background-color: #ffffff; /* White background for the footer */
-    color: #000000; /* Black text for the footer */
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.dots {
+    font-size: 20px; /* Adjust this to match the size of your dots */
+    line-height: 1; /* Ensures vertical alignment */
+    letter-spacing: 5px; /* Adjust the space between dots */
+    vertical-align:middle; /* Centers the dots vertically with the text */
+    color: #637914; /* You can change the color of the dots */
 }
