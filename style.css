@@ -138,3 +138,20 @@ footer {
     vertical-align:middle; /* Centers the dots vertically with the text */
     color: #637914; /* You can change the color of the dots */
 }
+.signature-image {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-top: 40px; /* Adds space between Certifications and  Signature */
+    margin-left: 300px;
+    
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.signature-section {
+    position: relative;
+    margin-top: 20px;
+}
