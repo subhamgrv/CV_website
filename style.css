@@ -14,7 +14,7 @@ body {
     max-width: 1000px;
     border: 1px solid #e0e0e0; /* Light grey border for subtle separation */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the box */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; /* Rounded corners  ok*/
 }
 
 header {
