@@ -3,7 +3,7 @@ title: My Jekyll Site
 description: >- # this means to ignore newlines until ">"
   A simple Jekyll site hosted on GitHub Pages.
 baseurl: "" # the subpath of your site, leave empty for the root
-url: "https://subhamgrv.github.io/CV_website/" # the base hostname & protocol for your site
+# url: "https://subhamgrv.github.io/CV_website/" # the base hostname & protocol for your site
 theme: jekyll-theme-minimal # or any other theme you want to use
 
 # Build settings
