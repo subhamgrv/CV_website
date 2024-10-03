@@ -3,9 +3,6 @@ body {
     font-family: 'Open Sans', sans-serif; /* Updated font for professional appeal */
     background-color: #f4f4f4; /* Light grey background for a modern feel */
     color: #333333; /* Dark grey text for better readability */
-    font-family: 'Open Sans', sans-serif; /* Updated font for professional appeal */
-    background-color: #f4f4f4; /* Light grey background for a modern feel */
-    color: #333333; /* Dark grey text for better readability */
     margin: 0;
     padding: 0;
 }
@@ -38,25 +35,17 @@ header h1 {
     font-size: 2.5em;
     letter-spacing: 1px;
     color: #000000;
-    color: #000000;
 }
 
 header p {
     margin: 10px 0;
     font-size: 1.1em;
     color: #000000;
-    font-size: 1.1em;
-    color: #000000;
 }
 
 .header-container a {
     color: #007bff; /* Blue color for links */
-    color: #007bff; /* Blue color for links */
     text-decoration: none;
-}
-
-.header-container a:hover {
-    text-decoration: underline; /* Underline effect on hover */
 }
 
 .header-container a:hover {
@@ -66,12 +55,6 @@ header p {
 .container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
-
-.column-left,
-.column-right {
-    flex: 1;
     gap: 20px;
 }
 
@@ -90,19 +73,14 @@ header p {
 
 h2 {
     border-bottom: 2px solid #000000;
-    border-bottom: 2px solid #000000;
     padding-bottom: 10px;
-    color: #000000;
-    font-size: 1.6em;
     color: #000000;
     font-size: 1.6em;
 }
 
 h3 {
     font-size: 1.3em;
-    font-size: 1.3em;
     margin-top: 10px;
-    color: #333333;
     color: #333333;
 }
 
@@ -119,40 +97,13 @@ ul li {
 
 ul li strong {
     color: #000000;
-    margin: 8px 0;
-    color: #555555;
-    font-size: 1.1em;
-}
-
-ul li strong {
-    color: #000000;
 }
 
 ul li a {
     color: #007bff;
     text-decoration: none;
-ul li a {
-    color: #007bff;
-    text-decoration: none;
 }
 
-ul li a:hover {
-    text-decoration: underline;
-}
-
-.experience-entry {
-    margin-bottom: 20px;
-}
-
-/* Languages Section */
-ul li .dots {
-    font-size: 2.4em; /* Same size as the language text */
-    color: #000000;
-    margin-left: 11px;
-   
-}
-
-/* Footer */
 ul li a:hover {
     text-decoration: underline;
 }
@@ -171,8 +122,6 @@ ul li .dots {
 
 /* Footer */
 footer {
-    background-color: #ffffff;
-    color: #000000;
     background-color: #ffffff;
     color: #000000;
     text-align: center;
